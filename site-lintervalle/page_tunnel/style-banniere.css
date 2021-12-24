@@ -1,0 +1,25 @@
+#contenu {
+	background-image: url(images/onvasortir.jpg);
+	height:1000px;
+	width: 1013px;
+	background-repeat: no-repeat;
+	
+}
+
+*{
+	margin:auto;
+	padding:auto;
+	border:none;}
+
+body {
+	margin:auto;
+	background-color:#fff;
+	}
+	
+#banniere{
+	height:89px;
+	width:727px;
+	margin:53px 0px 0px 260px;
+	float:left;
+	background-color:#fff;
+	}

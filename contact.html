@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<meta name="keywords" content="graphisme, multim&eacute;dia, communication, contact" />
+<meta name="description" content="Book, Claire Vietti , graphiste, infographiste, webdesigner, graphisme, contact, questions, connaissances, formulaire, discussions, remarques" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<title>Claire Vietti // Graphiste - Webdesigner</title>
+<link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+<link rel="icon" type="image/png" href="img/favicon2.png" />
+<link rel="stylesheet" href="css/styles.css" type="text/css" />
+<link rel="stylesheet" href="css/diaporama.css" type="text/css" />
+<link rel="stylesheet" media="screen and (max-width: 800px)" href="css/petite_resolution.css" />
+<link rel="stylesheet" media="screen and (max-width: 1280px)" href="css/grande_resolution.css" />
+<link rel="stylesheet" media="screen and (max-width: 1440px)" href="css/mac.css" />
+<!--[if lt IE 9]>
+        <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
+        <![endif]-->
+<script type="text/javascript" src="js/jquery-1.3.2.js"></script>
+<script type="text/javascript" src="js/jquery.galleriffic.js"></script>
+<script type="text/javascript" src="js/jquery.opacityrollover.js"></script>
+<script type="text/javascript">
+			document.write('<style>.noscript { display: none; }</style>');
+		</script>
+		<script type="text/javascript">
+<!--
+function MM_validateForm() { //v4.0
+  if (document.getElementById){
+    var i,p,q,nm,test,num,min,max,errors='',args=MM_validateForm.arguments;
+    for (i=0; i<(args.length-2); i+=3) { test=args[i+2]; val=document.getElementById(args[i]);
+      if (val) { nm=val.name; if ((val=val.value)!="") {
+        if (test.indexOf('isEmail')!=-1) { p=val.indexOf('@');
+          if (p<1 || p==(val.length-1)) errors+='- '+nm+' une adresse e-mail est demandée.\n';
+        } else if (test!='R') { num = parseFloat(val);
+          if (isNaN(val)) errors+='- '+nm+' doit contenir des nombres.\n';
+          if (test.indexOf('inRange') != -1) { p=test.indexOf(':');
+            min=test.substring(8,p); max=test.substring(p+1);
+            if (num<min || max<num) errors+='- '+nm+' doit contenir 10 chiffres '+min+' and '+max+'.\n';
+      } } } else if (test.charAt(0) == 'R') errors += '- '+nm+' est demandé(e).\n'; }
+    } if (errors) alert('L(es) erreur(s) suivante(s)ont été rencontrée(s)\n'+errors);
+    document.MM_returnValue = (errors == '');
+} }
+//-->
+</script>
+</head>
+<body>
+<header>
+  <div class="logo"><a href="home.html" title="Accueil"><img src="img/logo2.png" width="90" height="55" border="0" alt="Logo Claire Vietti // Graphiste - Webdesigner"/></a></div>
+  <nav>
+    <ul id="menu">
+      <li><a href="edition.html" title="Edition">Edition</a></li>
+      <li><a href="multimedia.html" title="Multim&eacute;dia">Multim&eacute;dia</a>
+        <ul id="sous-menu">
+          <li><a href="multimedia.html" title="Divers">Divers</a></li>
+          <li><a href="headers.html" title="Headers">Headers</a></li>
+          <li><a href="newsletters.html" title="Newsletters">Newsletters</a></li>
+          <li><a href="guides.html" title="Guides">Guides</a></li>
+          <li><a href="marques.html" title="Marques">Marques</a></li>
+          <li><a href="landing.html" title="Pages">Pages</a></li>
+         
+        </ul>
+      </li>
+      <li><a href="dessins.html" title="Dessins">Dessins</a></li>
+      <li><a href="photos.html" title="Photos">Photos</a> </li>
+      <li><a href="contact.html" title="Contact">Contact</a></li>
+      <li><a href="img/cv_ClaireVietti.pdf" target="_blank" title="CV">CV</a></li>
+    </ul>
+  </nav>
+</header>
+<div class="hr"></div>
+<section>
+  <aside>
+    <h1>Contact</h1>
+    <hr>
+    </hr>
+    <h2>Pour toutes questions, <strong>merci de me contacter &agrave; l'aide du formulaire</strong> ci-dessous : </h2>
+ <div id="formulaire">
+  <form method="post" action="mail.php" onSubmit="MM_validateForm('nom','','R','prenom','','R','','RisNum','email','','RisEmail','email','','RisEmail','','R');return document.MM_returnValue">
+    <fieldset>
+    <table width="220" border="0" cellspacing="5" cellpadding="0">
+      <tr>
+        <td align="right">Nom *</td>
+        <td><label>
+          <input type="text" name="nom" id="nom" />
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td align="right">Prénom *</td>
+        <td><label>
+          <input name="prenom" type="text" id="prenom" />
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td align="right">E-mail *</td>
+        <td><label>
+          <input name="email" type="text" id="email" onBlur="MM_validateForm('nom','','R','prenom','','R','cp','','RisNum','ville','','R','email','','RisEmail','telephone','','RisNum','mobile','','NisNum','adresse','','R');return document.MM_returnValue" />
+          </label>
+        </td>
+      </tr>
+	   <tr>
+        <td align="right">Message</td>
+        <td> <label>
+ <textarea name="message" id="message" cols="45" rows="5"></textarea>
+          </label>
+        </td>
+      </tr>
+      <tr>
+        <td align="right">&nbsp;</td>
+        <td><input type="submit" value="Envoyer" /></td>
+      </tr>
+    </table>
+    </fieldset>
+  </form>
+</div>
+<div id="champs">*champs obligatoires</div>
+    <div class="logo-home"></div>
+    <div style="clear: both;"></div>
+  </aside>
+</section>
+<!-- AddThis Button BEGIN -->
+<div class="addthis_toolbox addthis_default_style addthis_16x16_style" style="float:right; margin-right:22.5%">
+<div class="g-plusone" data-size="small" data-annotation="none"></div>
+<a class="addthis_button_email"></a>
+<a class="addthis_button_compact"></a>
+<a class="addthis_button_print"></a>
+</div>
+<script type="text/javascript">
+  window.___gcfg = {lang: 'fr'};
+
+  (function() {
+    var po = document.createElement('script'); po.type = 'text/javascript'; po.async = true;
+    po.src = 'https://apis.google.com/js/plusone.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(po, s);
+  })();
+</script>
+<script type="text/javascript" src="//s7.addthis.com/js/300/addthis_widget.js#pubid=undefined"></script>
+<!-- AddThis Button END -->
+<div id="frise"></div>
+<div class="hr"></div>
+<footer> <a href="http://fr.viadeo.com/fr/profile/claire.vietti1" title="Profil Viadeo" target="_blank"> <span class="viadeo"></span></a><a href="http://www.linkedin.com/pub/claire-vietti/64/459/3b8"title="Profil Linkedin" target="_blank"><span class="linkedin"></span></a>
+  <p>Claire Vietti // Graphiste - Webdesigner ©2013  I Tous droits r&eacute;serv&eacute;s<br/>
+    <a href="edition.html" title="Edition">Edition</a> I <a href="multimedia.html" title="Multim&eacute;dia">Multim&eacute;dia</a> I <a href="dessins.html" title="Dessins">Dessins</a> I <a href="photos.html" title="Photographies">Photographies</a> I <a href="contact.html" title="Contact">Contact</a> I <a href="img/cv_ClaireVietti.pdf" target="_blank" title="CV">Cv</a> </p>
+</footer>
+</body>
+</html>

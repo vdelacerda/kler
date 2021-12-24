@@ -1,0 +1,56 @@
+html * { margin:0; padding:0; }
+body{background-image: url('../img/background2.png');font-family: "Lucida Sans", "Lucida Grande", "Lucida Sans Unicode", "Luxi Sans", sans-serif;font-size: 75%; margin:0;padding:0;text-align: center;}
+header {background-color: #333;height:55px;margin:auto;width:100%;}
+#menu, #menu ul {font-size:1.3em;font-weight:bold;list-style: none;margin: 0;padding: 0}
+#menu li {display: inline-block;position: relative}
+#menu a {height: 30px;line-height: 30px;text-align: left;text-decoration:none;}
+#menu ul {font-size:1em;left: -4000px;position: relative;}
+#menu li:hover > ul {left: 0}
+#menu li li {float:left; padding-left:20px ;width:auto;}
+#menu li li:hover > ul {left: 150px; right:200px;top: 0;}
+#menu {list-style: none;margin-left: 8%;padding-top: 1%;}
+#menu li {width: 8%;}
+#menu a:hover, #sous-menu a:hover{color: #c1c1c1;text-decoration:underline}
+#menu li a {color:#fff}
+#sous-menu li {background-color:#333; width:80%}
+ul #sous-menu {margin:10px;width:680px; }
+#sous-menu li a {color:#fff;padding-right:20px;}
+header .logo {float:left; margin-left:20px; position:absolute; width:50%;}
+header .logo img:hover{opacity:0.5}
+.logo-home {background:url('../img/logo.png'); height:275px; margin:8% 0 0 55%;width:317px;}
+.logo-index {background:url('../img/logo.png'); height:275px; margin:5% 0 0 30%;width:317px;}
+article {float:left; margin:50px 20px 0 0; text-align:justify;width:45%;}
+article  p{font-size:1.2em}
+article .lettrine {color:purple;float: left;  font-family:"Times New Roman", Times, serif; font-size: 7em;font-variant: small-caps;  line-height:0.5;margin-bottom:5px}
+a{color: #333;text-decoration: none;}
+a:focus, a:hover, a:active {color:#993399;text-decoration: underline;}
+span.flash, span.html {float:left}
+.flash a{font-weight:bold; padding:0 150px 0 120px; text-decoration:underline; }
+.html a{ font-weight:bold;  position:absolute; padding:0 150px 0 250px; text-decoration:underline;}
+h1, h2 {font-family: "Arial", Helvetica, sans-serif;letter-spacing:-1px;margin: 0 0 10px 0;}
+h1 {color:purple;font-size: 2em;margin-top:10px;padding: 0;}
+h2 {float:left;font-size:1.2em;font-weight:normal;padding-top: 10px;width:100%;}
+hr {background-color:#993399;color:#993399;  float:left; height:1%; width:95%}
+.hr {background-color: #993399;color:#993399;  height:3px; width:100%}
+pre {font-size: 1.2em;line-height: 1.2em;overflow-x: auto;}
+section {background-color: #fff;border-color: #ddd;	border-style: none solid solid;border-width: medium 1px 1px;height:auto;margin:50px auto 10px auto;text-align: left;width: 55%;}
+aside {border:1px solid  #CCCCCC;box-shadow: 5px 5px 5px #ccc;height:65%;padding:0 0 70px 20px;}
+table {border:1px solid #D1CECE; float:left}
+p span.actu {float:left; font-size:0.9em; font-style:italic}
+span.actu_linkedin {background:url('../img/actu_Linkedin.png'); background-repeat:no-repeat; float:left; height:26px; margin:2% 5% 0 0; width:89px;}
+span.actu_viadeo {background:url('../img/actu_Viadeo.png'); background-repeat:no-repeat; float:left; height:26px; margin-top: 2%; width:89px;}
+#diaporamas {margin-top:5%}
+#ads {clear: both;padding: 12px 0 12px 66px;}
+#formulaire {float:left; margin:80px 20px 0 50px; width:38%;}
+textarea {border:#666 1px solid;color:#333;font-size:1em;font-family: Verdana, Arial, Helvetica, sans-serif;width:auto;}
+legend {float:left; margin:0 0 7% 8%; text-align:left}
+#champs {color: #993399;font-family: Verdana, Arial, Helvetica, sans-serif;font-size:0.8em; margin:6% 0 0 7%;position:absolute; text-align:left}
+fieldset {border:none}
+input {color:#993399}
+td {color:#333333}
+#frise {background: url('../img/fond.png');  background-repeat:no-repeat; height:202px; margin:auto;width:100%;}
+footer {background-color: #333;height:7%;margin:auto; padding:10px 0 10px 0;width:100%;}
+footer p {color:#FFFFFF; text-align:center}
+footer p a{color:#FFFFFF; text-decoration:underline}
+footer span.linkedin {background:url('../img/linkedin.png'); background-repeat:no-repeat; float:right; height:20px; margin-top:0.5%; padding-right:0.5%; width:20px;}
+footer span.viadeo {background:url('../img/viadeo.png'); background-repeat:no-repeat; float:right; height:20px; margin-top:0.5%; padding-right:0.5%; width:20px;}

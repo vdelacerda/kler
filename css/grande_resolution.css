@@ -1,0 +1,16 @@
+@media all and (min-width: 800px) and (max-width: 1280px){
+aside {padding:0 0 80px 20px}
+.flash a {padding:0 150px 0 90px}
+footer, header{width: auto}
+section {width:80%}
+header .logo {float:left; position:absolute; width:30%}
+header nav {float:left; font-size:1.3em}
+#menu, #menu ul {font-size:1em}
+#menu {margin-left:8%}
+#menu li {width:10%}
+header nav ul {margin:3px auto auto 200px; padding:auto auto auto 20px;width:100%;}
+#thumbs {margin-top:75px;  position:absolute; width:27%;}
+.logo-home {margin:10% 0 0 50%}
+.slideshow-container {float:left; margin-bottom:10px; width:auto;}
+.navigation {margin-top:22px; width:27%}
+}
